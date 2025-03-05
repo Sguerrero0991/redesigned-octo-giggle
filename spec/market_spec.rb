@@ -3,9 +3,9 @@ require './lib/vendor'
 require './lib/market'
 require 'pry'
 
-RSpec.describe Vendor do 
+RSpec.describe Market do 
   describe '#initialize' do
-    it 'is a Vendor' do
-      vendor = Vendor.new("Rocky Mountain Fresh")
-      expect(vendor).to be_a(Vendor)
+    it 'is a Market' do
+      market = Market.new("South Pearl Street Farmers Market")  
+      expect(market).to be_a(Market)
     end
